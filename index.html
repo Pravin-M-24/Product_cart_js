@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="main_container">
+      <div id="left_container">
+        <h1>Products</h1>
+        <table>
+         <tr>
+            <td>Product-1</td>
+             <td><p>100</p></td>
+             <td class="btn_container">
+                <div class="btn">
+                <button id="neg_btn">-</button>
+                <p id="count_prod1">0</p>
+                <button id="pos_btn1">+</button>
+            </div>
+            </td>
+         </tr>
+         <tr>
+            <td>Product-2</td>
+             <td><p>200</p></td>
+             <td class="btn_container">
+                <div class="btn">
+                <button id="neg1_btn">-</button>
+                <p id="count_prod2">0</p>
+                <button id="pos1_btn">+</button></td>
+            </div>
+         </tr> 
+         <tr>
+            <td>Product-3</td>
+             <td><p>300</p></td>
+             <td class="btn_container">
+                <div class="btn">
+                <button id="neg2_btn">-</button>
+                <p id="count_prod3">0</p>
+                <button id="pos2_btn">+</button></td>
+            </div>
+         </tr>
+        </table>
+      </div>
+      <div id="right_container" style="background-color: cyan">
+        <h1>Cart</h1>
+        <table id="right_table">
+          <!-- <div class="products_added">
+                 
+             </div> -->
+            
+        </table>
+        <div class="total">
+               <h2 style="margin: 0px;">Total</h2>
+              <h2 id="updateTotal" style="margin: 0px;">Rs:</h2>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
